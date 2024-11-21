@@ -1,7 +1,7 @@
-output "cur_report_arn" {
-  description = "ARN of the Cost and Usage Report"
-  value       = aws_cur_report_definition.this.arn
-}
+# output "cur_report_arn" {
+#   description = "ARN of the Cost and Usage Report"
+#   value       = aws_bcmdataexports_export.this.export_arn
+# }
 
 output "cur_bucket_arn" {
   description = "ARN of the S3 Bucket where the Cost and Usage Report is delivered"
