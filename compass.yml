@@ -1,0 +1,22 @@
+name: aws-cudos-framework-deployment
+id: ari:cloud:compass:1e6411e4-965b-4497-a475-23a31ee2d1e0:component/71c0d48a-bc51-453a-b220-9578452cffee/d9de7737-74d2-430e-a0b0-3be642ccdcfd
+description: Command Line Interface tool for Cloud Intelligence Dashboards deployment
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/AlayaCare/aws-cudos-framework-deployment
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: AC Owner
+    type: single_select
+    value: null
+  - name: AC System
+    type: single_select
+    value: null
